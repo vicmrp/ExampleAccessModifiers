@@ -8,9 +8,7 @@ namespace ConsoleUI
         static void Main(string[] args)
         {
             AccessDemo demo = new AccessDemo();
-            // demo;
-            demo.PublicDemo();
-            
+            demo.PublicDemo();           
         }
     }
 }
