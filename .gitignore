@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/dotnetcore,csharp
-# Edit at https://www.toptal.com/developers/gitignore?templates=dotnetcore,csharp
+# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,dotnetcore,csharp
+# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,dotnetcore,csharp
 
 ### Csharp ###
 ## Ignore Visual Studio temporary files, build results, and
@@ -366,4 +366,15 @@ obj/
 /node_modules
 /wwwroot/node_modules
 
-# End of https://www.toptal.com/developers/gitignore/api/dotnetcore,csharp
+### VisualStudioCode ###
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+*.code-workspace
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,dotnetcore,csharp
