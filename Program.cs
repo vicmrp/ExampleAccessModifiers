@@ -1,12 +1,16 @@
 ﻿using System;
+using DemoLibrary;
 
-namespace ExampleAccessModifiers
+namespace ConsoleUI
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            AccessDemo demo = new AccessDemo();
+            // demo;
+            demo.PublicDemo();
+            
         }
     }
 }
